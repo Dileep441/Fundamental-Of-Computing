@@ -1,0 +1,12 @@
+echo "Enter the side of the square"
+read s
+echo "The area of square is: expr `$s \* $s`"
+echo "Enter the length of the rectangle"
+read len
+echo "Enter the breadth of the rectangle"
+read br
+echo "The area of rectangle is: `expr $len \* $br`"
+echo "Enter the radius of the circle"
+read rad
+echo "The area of circle is: `expr 3.14 \* $rad \* $rad`"
+
