@@ -1,0 +1,18 @@
+echo "Enter the first number:"
+read a
+echo "Enter the second number:"
+read b
+echo "Enter the third number:"
+read c
+echo "Enter the fourth number:"
+read d
+
+sum=$(($a+ $b + $c + $d))
+avg=$(echo `expr $sum / 4`)
+prod=$(($a * $b * $c * $d))
+
+echo "The sum of these numbers is: " $sum
+echo "The average of these numbers is: " $avg
+echo "The product of these numbers is:" $prod
+
+
