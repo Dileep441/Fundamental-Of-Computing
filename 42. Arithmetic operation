@@ -1,0 +1,17 @@
+echo "Enter a number"
+read a
+echo 'Enter another number'
+read b
+echo "What do you want to do? (1 to 4)"
+echo "1) Addition"
+echo "2) Subtraction"
+echo "3) Multiplication"
+echo "4) Division"
+echo "Enter your Choice"
+read n
+case "$n" in
+1) echo "The Sum of $a and $b is `expr $a + $b`";;
+2) echo "The Difference between $a and $b is `expr $a - $b`";;
+3) echo "The Product of the $a and $b is `expr $a \* $b`";;
+4) echo "The Division of $a by $b is `expr $a / $b`";;
+esac
