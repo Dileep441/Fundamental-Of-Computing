@@ -1,0 +1,10 @@
+echo "Enter an integer number"
+read n
+a=1
+echo "Numbers from $a to $n are:"
+while [ $a -le $n ]
+do
+echo "$a"
+a=`expr $a + 1`
+done
+
